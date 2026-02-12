@@ -1,0 +1,7 @@
+echo "# More" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/lonestar693-cpu/More.git
+git push -u origin main
